@@ -13,8 +13,8 @@ body {
 }
 .ball, .button {
   margin: 0 auto;
-  position:relative; 
-  width:80%;
+  position: relative; 
+  width: 80%;
 }
 .answer {
   position:absolute;
@@ -24,25 +24,31 @@ body {
   margin-top:-60px;
   margin-left:-65px;
   font: 16px 'Open Sans', Helvetica, Arial, sans-serif;
-  color: #222;
+  color: rgb(11, 11, 11);
   text-transform: uppercase;
 }
 
 #questionButton {
-  font: 26px 'Montserrat', Helvetica, Arial, sans-serif;
+  font: 20px 'Montserrat', Helvetica, Arial, sans-serif;
   border-radius: 5px;
   border: none;
   color: #f8f8f8;
   background-color: #f16059;
-  padding: 10px 75px;
+  padding: 10px 60px;
   display: block;
   margin: 0 auto;
+}
+
+#questionButton:hover{
+  color: #f16059;
+  background-color: #e4c9c9;
 }
 
 header {
   padding-top: 0.25em;
   text-align: center;
 }
+
 header span {
   font-size: 60px;
   color: #f16059;
